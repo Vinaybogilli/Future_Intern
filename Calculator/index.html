@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="p.css">
+</head>
+
+<body background-color="pink">
+    
+    <h1 >Basic Calculator</h1>
+    <div id=BackGround>
+        
+        <input id="display" readonly>
+        
+        
+         <div id="keys">
+        <button  id="btn" onclick="cleardisplay()" style="background-color: red;"> AC</button>
+        <button  id="btn1" onclick="back()"> C </button>
+        <button  id="btn1" onclick="appendToDisplay('%')"> %</button>
+        <button  id="btn1" onclick="appendToDisplay('/')"> /</button>
+        <button  id="btn" onclick="appendToDisplay('7')"> 7</button>
+        <button  id="btn" onclick="appendToDisplay('8')"> 8</button>
+        <button  id="btn" onclick="appendToDisplay('9')"> 9</button>
+        <button id="btn1" onclick="appendToDisplay('*')"> *</button>
+        <button  id="btn" onclick="appendToDisplay('4')"> 4</button>
+        <button  id="btn" onclick="appendToDisplay('5')"> 5</button>
+        <button  id="btn" onclick="appendToDisplay('6')"> 6</button>
+        <button  id="btn1" onclick="appendToDisplay('-')"> -</button>
+        
+        
+        
+        
+        <button  id="btn" onclick="appendToDisplay('1')"> 1</button>
+        <button  id="btn" onclick="appendToDisplay('2')"> 2</button>
+        <button id="btn"  onclick="appendToDisplay('3')"> 3</button>
+        <button  id="btn1" onclick="appendToDisplay('+')"> +</button>
+        
+        
+        
+        
+        
+        
+        
+        
+        <button  id="btn" onclick="appendToDisplay('0')"> 0</button>
+        
+        <button  id="btn" onclick="appendToDisplay('00')"> 00</button>
+        <button  id="btn" onclick="appendToDisplay('.')"> .</button>
+        <button  id="btn1" onclick="calculate()"> =</button>
+        
+        
+        
+        
+         </div>
+        
+        
+    </div>
+    <script src="p.js"></script>
+</body>
+</html>
